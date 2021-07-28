@@ -1,6 +1,6 @@
 #!/bin/bash
 if [[ $# -lt 1  ]]; then  echo  no param;exit ; fi
-
+# 必须目标父目录存在,否则会有问题.
 p=$1
 #echo p=$p 
 dir=$(dirname $p)
